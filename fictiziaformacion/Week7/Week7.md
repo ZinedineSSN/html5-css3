@@ -8,7 +8,7 @@ Week 7 Milestone
 
 ## CSS Transformations
 
-* [CSS Transform](https://developer.mozilla.org/es/docs/Web/CSS/transform).
+* [CSS Transform](https://developer.mozilla.org/en-US/docs/Web/CSS/transform).
 * [Backface visibility](https://developer.mozilla.org/es/docs/Web/CSS/backface-visibility).
 * [CSS Transform article](http://css-tricks.com/almanac/properties/t/transform/).
 * [CSS 3D Transforms by David DeSandro](http://desandro.github.io/3dtransforms/).
@@ -17,6 +17,7 @@ Week 7 Milestone
 ## CSS Filters
 
 * [CSS Filters](https://developer.mozilla.org/en-US/docs/Web/CSS/filter).
+* [SVG Filters](https://css-tricks.com/gooey-effect/).
 
 ## CSS font-face & HTML font icons
 
@@ -35,6 +36,8 @@ Week 7 Milestone
 * [RWD versus Adaptive Design](https://developer.mozilla.org/en-US/Apps/Design/UI_layout_basics/Responsive_design_versus_adaptive_design?search=responsive+design).
 * [CSS Animations between media queries](http://davidwalsh.name/animate-media-queries).
 * [HTML5 Boilerplate](https://html5boilerplate.com/).
+* [Media Queries for Standard Devices](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/).
+* [Em Based Media Queries](http://foundation.zurb.com/docs/media-queries.html).
 
 ## Mobile First
 

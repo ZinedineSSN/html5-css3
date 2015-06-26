@@ -1,0 +1,13 @@
+/*@media screen
+    and (min-width: 1200px) {*/
+    body {
+        width: 60%;
+        font-family: 'Oswald';
+    }
+    section {
+        background-color: #444;
+        color: #ffc;
+    }
+    .menu-hamburguesa label {display: none;}
+    .menu-hamburguesa ul {display: block;}
+/*}*/

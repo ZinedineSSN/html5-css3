@@ -1,248 +1,434 @@
+/* Slabo 27px, 1 Style by John Hudson Normal 400
+ */
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px); /* slabo 27 (400) */
+@import url(http://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700); /*  */
 
-/* CSS Document */
 
-html{
-	box-sizing: border-box;
-	}
-	
-body{
-	width: 100%;
-	display: block;
-	}
-	
-*,
-*::before, 
-*::after{
-	box-sizing: inherit;
-	}
-	
+/* Tipografia
+ *
+ *
+ *
+ **/
 
-	body ul{
-		width: auto;
-		display: table;
-		
-		margin: 0;
-		padding: 10px;
-		margin: 0 auto;
-		
-		background: #ddd;
-		}
-		
-		body li{
-			width: auto;
-			display:inline-block;
-			
-			margin-right: 10px;
-			}
-			
-			body li:last-child{
-				margin-right: 0;
-				}
-				
-			ul li a:hover{
-				display:block;
-				color:; pink;
-				font-size: 36px;
-				}
-			
-			
-			
-body section{
-	width: 100%;
-	display: block;
-	background: red;
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6 {
+  font-family: 'Slabo 27px', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  /*font-size: 28px;*/
+  line-height: 1;
+  text-rendering : optimizelegibility;
+
+  color: rgb(12, 107, 159);
 }
 
-	.contenidos + p{
-		width: 100%;
-		display: block;
-		background-color: yellow;
-		}
-		
-	.contenidos > p{
-		color: olive;
-		}
-		
-		p.contenidos{
-			background-color: pink;
-			}
-		
-		
-		
-		
-/* seccion A articulos */
+h1, .h1 {
+  margin-bottom: 0.45em;
+  font-size: 24px;
+  font-size: 1.5rem;
+  line-height: 1.2; }
+
+h2, .h2 {
+  margin-bottom: 11px;
+  font-size: 27px;
+  /*font-size: 2rem;*/
+  line-height: 1.5em;
+}
+
+/*
+h3, .h3 {
+  margin-bottom: 0.300em;
+  font-size: 20px;
+  font-size: 1.25rem;
+  line-height: 1.3; }
+
+h4, .h4 {
+  margin-bottom: 0.25em;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.25; }
+
+h5, .h5 {
+  margin-bottom: 0.35em;
+  font-size: 16px;
+  font-size: 1;
+  line-height: 1.25; }
+
+h6, .h6 {
+  margin-bottom: 0.25em;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 1; }
+*/
+
+p,
+ol,
+ul,
+dl,
+address {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  margin-bottom: .6em;
+  font-size: 18px;
+  font-size: 1.125rem;
+  line-height: 1.6;
+
+  color: rgb(67, 160, 224);
+}
+
+strong,
+b{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  font-size: 1rem;
+  line-height: 1.6;
+
+  color: #6E6E6E;
+
+  /* rojo de cabecera */
+  /*color: #FF4646;*/
+}
 
 
-.articulos{
-	display: block;
-	width : 80%;
-	background-color: pink;
-	margin: 0 auto;
-	}
+ul,
+ol {
+  font-style: normal;
+  font-weight: 400;
 
-	.articulos article{
-		width: 30%;
-		display: inline-block;
-		vertical-align: top;
-		background-color: yellow;
-		
-		font-size: 20px;	
-		
-		padding: 5px;
-		}
-			
-		.articulos-secundarios > section{
-			padding: 10px;
-			
-			background-color: olive;
-			
-			margin-bottom: 68px;
-			}
-			.articulos-secundarios > section:last-child{
-				margin-bottom: 0;
-				}
-			
-			.articulos img{
-				width: 100%;
-				max-width: 100%;
-				height: auto;
-				max-height: 200px;
-				
-				margin-bottom: 15px;
-				}
-				.articulo-principal img{
-					height: auto;
-					max-height: 100%;
-					}
-			
-			.articulos h2{
-					width: 100%;
-					font-size: 42px;
-					color: white;
-					
-					margin: 0 auto;
-					margin-bottom: 20px;
-					
-				}
-				.articulos h2::before,
-				.articulos h2::after{
-					content: '"';
-					
-					color: green;
-					}
-			.articulos p{
-					width: 100%;
-					margin: 0 auto;
-				}
-				
+  font-size: 17px;
+  font-size: 1.0625rem;
+  line-height: 1.6;
 
-		
-		.articulos .articulo-principal{
-				width:70%;
-				display:inline-block;
-				
-				text-align: center;
-				
-				background-color: blue;
-				
-				padding: 15px;
-				margin-bottom: 0;
-			}
-			.articulo-principal h2{
-				width: 70%;
-				}
+  margin: 0 0 .5em 0;
+  padding: .7em  1.3em;
+}
+
+ul li{
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 17px;
+  font-size: 1.0625rem;
+  line-height: 1.5;
+
+  margin-bottom: 5px;
+}
+
+li ul,
+li ol {
+  margin : 0;
+}
 
 
-	.articulos{
-		
-		}
 
-
-/* seccion B Tablas */
-
-table{
-	width: 95%;
-	margin-left:0;
-	margin: 0 auto;
-	}
-	caption{
-		width: 100%;
-		text-align: center;
-		}
-	
-tr{
-	background-color: green;
-	padding: 10px;
-	}
+/* Links
+ *
+ *
+ *
+ **/
 
 
 
 
 
 
-/* Prueba iframe */
+/* Menú
+ *
+ *
+ *
+ **/
 
-.prueba_iframe{
-	width: 50%;
-	height: auto;
-	margin: 0 auto;
-	
-	background-color: pink;
-	}
+.nav{
+  display: inline-table;
+  position: fixed; /* position: fixed; */
+  vertical-align: top;
+
+  width: 20%;
+  left: -100%;
+
+  height: 100vh;
+
+  background-color: rgba(122, 178, 217, 1);
+  box-shadow: inset -2px 0 5px rgba(0, 0, 0, 0.2);
+
+  transition: all .5s ease;
+}
+
+  .navegacion{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: auto;
+
+    display: inline-block;
+    position: relative;
+
+  }
+    .navegacion li{
+      width: 100%;
+      padding: 15px 30px;
+
+      vertical-align: middle;
+
+      display: inline-table;
+
+      border-bottom: 2px solid rgba(96, 169, 219, 1);
+      box-shadow: 0 1px 0 rgba(255, 255, 255, .3);
+
+    }
+
+.navegacion li a{
+  cursor: auto;
+  text-decoration: none;
+  font-size: 18px;
+  width: auto;
+
+
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+
+  color: rgba(255, 255, 255, .6);
+
+  z-index: 99999;
+
+}
+
+/* estilos menú off-canvas */
+.btn-menu{
+  font-family: 'Roboto Condensed', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+
+  margin-bottom: .6em;
+  font-size: 18px;
+/*  font-size: 1rem;*/
+  line-height: 1.6;
+
+  display: block;
+  width: auto;
+  position: absolute;
+  z-index: 999;
+
+  padding: 10px 10px;
+
+  top: 103px;
+  left: 30px;
+
+  color: rgba(255, 255, 255, .6);
+  background-color: rgba(122, 178, 217, 1);
+
+  border: 4px solid rgba(139, 198, 239, 1);
+}
+
+#main-check{
+  display: block;
+  width: auto;
+  position: absolute;
+  z-index: 999;
+
+  top: 0;
+  left: 0;
+}
+ #main-check:checked ~ nav{
+   width: 20%;
+   display: inline-table;
+   position: relative;
+   left: 0;
+   transition: all .5s ease;
+ }
+
+#main-check:checked ~ .master-main{
+  width: 78%;
+  display: inline-block;
+
+  transition: all .5s ease;
+}
 
 
 
-/* Prueba figure (Polaroid) */
+  /* Sitio
+   *
+   *
+   *
+   **/
+html {
+  font-size: 85%;
+}
+
 body{
-	background-color: pink;
-	}
-	
-.polaroid{
-	width: 18%;
-	display: block;
-	
-	position: relative;
-	margin: 0 auto;
-	padding: 8px 8px 8px 8px; 
-	
-	background: rgba(255,255,255,1);
-	background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
-	background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-	background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-	background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-	background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
-	
-	clear: both;
-	}
-	
-	.polaroid img{
-		width: 100%;
-		display: block;
+  width: 100%;
+  display: block;
+  background-color: rgb(77, 138, 194);
+ }
 
-		margin-bottom: 0;
-		
-		border: 2px solid #000;
-		
-		}
-		
-		.polaroid figcaption{
-			width: 100%;
-			displa: block;
-			position: absolute;
-	
-			top: 20px;
-			left: 0;
-			margin: 0 auto;
+.master-main{
+  width: 100%;
+  display: block;
+  position: relative;
+  vertical-align: top;
+  overflow: hidden;
 
-			
-			background-color: rgba(255,255,255, .3);
-			
-			text-align:center;
-			}
+  margin: 0 auto;
+  padding: 20px 25px;
+
+  transition: all .5s ease;
+
+}
 
 
+/* Cabecera */
+.cabecera{
+  width: 100%;
+
+  display: inline-block;
+  vertical-align: top;
+
+  padding: 30px 30px 90px 30px;
+
+  background-color: rgba(255, 255, 255, .9);
+  border-bottom: 3px solid rgb(122, 178, 217);
+
+  z-index: 99;
+}
+
+  .texto-logo{
+    font-family: 'Slabo 27px', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    /*font-size: 28px;*/
+    line-height: 1;
+
+    margin-bottom: 0;
+
+    text-rendering : optimizelegibility;
+
+    color: rgb(12, 107, 159);
+  }
+.texto-logo span{
+  display: inline-block;
+  width: 100%;
+
+  font-family: 'Slabo 27px', serif;
+  font-style: italic;
+  font-weight: 400;
+  font-size: 16px;
+  /*font-size: 28px;*/
+  line-height: 1;
+}
+.texto-logo span:before{
+  content: "";
+}
+
+
+
+/* BODY - sección principal */
+
+.wraper-principal{
+  width: 100%;
+  display: block;
+
+  transition: all .5s ease;
+}
+
+  .seccion-principal{
+    width: 100%;
+    max-width: 750px;
+
+    display: block;
+    position: relative;
+
+    padding: 22px 30px;
+   /*padding: 34px 47px;*/
+
+    background-color: rgba(255, 255, 255, .8);
+
+    transition: all .5s ease;
+  }
+
+
+/* media queries */
+@media all and (min-width: 37.4375em){
+  html{
+    font-size: 92%;
+  }
+}
+
+
+@media all and (min-width: 49.9375em) {
+  html{
+    font-size: 97%;
+  }
+
+}
+
+@media all and (min-width: 63.9375em) {
+  html{
+    font-size: 100%;
+  }
+
+  .seccion-principal{padding: 34px 40px;}
+
+}
+
+
+/*
+  body ul{
+    width: auto;
+    display: table;
+
+    margin: 0;
+    padding: 10px;
+    margin: 0 auto;
+
+    background: #ddd;
+  }
+
+    body li{
+      width: auto;
+      display:inline-block;
+
+      margin-right: 10px;
+    }
+    body li:last-child{
+      margin-right: 0;
+    }
+
+    ul li a:hover{
+      display:block;
+      color:; pink;
+      font-size: 36px;
+    }
+
+
+
+  body section{
+    width: 100%;
+    display: block;
+    background: red;
+  }
+
+    .contenidos + p{
+      width: 100%;
+      display: block;
+      background-color: yellow;
+    }
+
+    .contenidos > p{
+      color: olive;
+    }
+
+    p.contenidos{
+      background-color: pink;
+    }
+*/
 
 
 
@@ -250,11 +436,3 @@ body{
 
 
 
-
-
-
-
-
-
-
-		
